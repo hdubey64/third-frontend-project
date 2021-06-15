@@ -82,3 +82,51 @@ header {
    font-size: 1.2rem;
    font-weight: 300;
 }
+.teamSection {
+   text-align: center;
+   background-color: var(--aboutcolor);
+   padding: 100px 0;
+   overflow: hidden;
+}
+.profile {
+   text-align: center;
+   padding: 20px 0;
+}
+.teamSection h2 {
+   padding-bottom: 70px;
+}
+.teamSection h3 {
+   font-size: 1.5rem;
+}
+.signupSection {
+   background-image: url(/assets/Imeges/Group\ 4.png);
+   background-position: center;
+   padding: 60px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.signupSection h2 {
+   font-size: 2rem;
+   padding: 20px 0;
+
+   text-align: center;
+   color: white;
+}
+footer {
+   padding: 60px 0;
+}
+.icon {
+   display: flex;
+   justify-content: space-between;
+}
+.pic {
+   padding: 10px;
+}
+.link {
+   color: var(--buttoncolor);
+}
+.link2 {
+   color: var(--pfontcolor);
+}
