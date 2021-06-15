@@ -1,0 +1,10 @@
+:root {
+   --buttoncolor: #0d6efd;
+   --pfontcolor: #a3a4a7;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   scroll-behavior: smooth;
+}
