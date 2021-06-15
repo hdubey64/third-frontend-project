@@ -44,6 +44,7 @@ header {
 }
 .aboutSection {
    padding: 70px 10px;
+   background-color: var(--aboutcolor);
 }
 
 .imgs {
@@ -56,6 +57,28 @@ header {
    font-size: 1.8rem;
 }
 .aboutSection p {
+   font-size: 1.2rem;
+   font-weight: 300;
+}
+.blogSection {
+   overflow: hidden;
+}
+
+.blog1 {
+   padding: 0 135px;
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.blog2 {
+   padding: 0 !important;
+}
+.blogSection h2 {
+   font-size: 2rem;
+   padding-bottom: 5px;
+}
+.blogSection p {
    font-size: 1.2rem;
    font-weight: 300;
 }
