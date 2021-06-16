@@ -34,7 +34,6 @@ header {
    color: white;
 }
 .herobtn {
-   width: 550px;
    margin: 0 auto;
 }
 .placeholders {
@@ -60,6 +59,9 @@ header {
    font-size: 1.2rem;
    font-weight: 300;
 }
+.about {
+   padding: 0 80px;
+}
 .blogSection {
    overflow: hidden;
 }
@@ -81,6 +83,9 @@ header {
 .blogSection p {
    font-size: 1.2rem;
    font-weight: 300;
+}
+.team {
+   padding: 0 70px;
 }
 .teamSection {
    text-align: center;
@@ -115,7 +120,7 @@ header {
    color: white;
 }
 footer {
-   padding: 60px 0;
+   padding: 45px 0;
 }
 .icon {
    display: flex;
@@ -129,4 +134,53 @@ footer {
 }
 .link2 {
    color: var(--pfontcolor);
+}
+
+@media (max-width: 991.98px) {
+   .heroSection h1 {
+      padding: 20px 40px;
+      font-size: 2.2rem;
+      width: 100%;
+   }
+   .herobtn {
+      margin: 0 auto;
+      padding: 0 50px;
+   }
+   .blog1 {
+      text-align: left;
+      padding: 100px 115px;
+   }
+   .blog2 {
+      width: 100%;
+   }
+   .signupSection h2 {
+      font-size: 2rem;
+      width: 100%;
+   }
+   .signbtn {
+      margin: 0 auto;
+      width: 75vw;
+   }
+}
+@media (max-width: 767.98px) {
+   .heroSection {
+      height: 60vh;
+   }
+   .profile1 {
+      padding: 15px 0;
+   }
+   .aboutCard {
+      padding: 15px 0;
+   }
+   .link {
+      font-size: 0.7rem;
+   }
+   .link2 {
+      font-size: 0.6rem;
+   }
+   .pic {
+      padding: 15px;
+   }
+}
+@media (max-width: 575.98px) {
 }
